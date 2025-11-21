@@ -20,7 +20,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/SAURABHSINGHDHAMI/Plant-Disease-Detection.git
+git clone https://github.com/KPTUSHAR/Plant-Disease-Detection-Application.git
 ```
 
 2. Navigate to the project directory:
@@ -60,3 +60,4 @@ The web application (`main_app.py`) empowers users to interact with the trained 
 - streamlit==1.18.0
 - opencv-python-headless==4.5.3
 - tensorflow==2.7.0
+
