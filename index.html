@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plant Disease Detection</title>
+  <link rel="shortcut icon" href="./favicon.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+      color: #333;
+      line-height: 1.6;
+      padding: 2rem;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #2e7d32;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #2e7d32;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s ease;
+    }
+    .button:hover {
+      background-color: #1b5e20;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      color: #388e3c;
+      margin-bottom: 1rem;
+    }
+    ul, ol {
+      margin-left: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌱 Plant Disease Detection 🔍</h1>
+    <p>AI-powered tool to identify plant diseases from leaf images</p>
+    <a href="https://saurabhsinghdhami-plant-disease-detection-main-app-p8d5ks.streamlit.app/" class="button" target="_blank">Launch Live Demo</a>
+  </header>
+
+  <section>
+    <h2>🚀 Features</h2>
+    <ul>
+      <li>Upload plant leaf images for instant disease prediction</li>
+      <li>Powered by Convolutional Neural Networks (CNN)</li>
+      <li>Streamlit-based interactive web interface</li>
+      <li>Trained on real-world plant disease datasets</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🛠️ How to Run Locally</h2>
+    <ol>
+      <li>Clone the repo: <code>git clone https://github.com/SAURABHSINGHDHAMI/Plant-Disease-Detection.git</code></li>
+      <li>Navigate: <code>cd Plant-Disease-Detection</code></li>
+      <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+      <li>Run app: <code>streamlit run main_app.py</code></li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>🌿 About the Model</h2>
+    <p>
+      The model is trained using a CNN architecture to classify plant leaf images into disease categories.
+      It uses TensorFlow and Keras, and the trained weights are stored in <code>plant_disease_model.h5</code>.
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Plant Disease Detection | Built with ❤️ using Streamlit & TensorFlow
+  </footer>
+
+</body>
+</html>
